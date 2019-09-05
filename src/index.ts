@@ -5,7 +5,16 @@ import { Routes } from "./routes";
 import * as cors from 'cors'
 
 export const storage = {
-    users: []
+    urls: [
+        {
+            "id": 1,
+            "url": "https://www.google.com"
+        },
+        {
+            "id": 2,
+            "url": "https://www.yahoo.com"
+        },
+    ]
 }
 
 export const srcPath = __dirname
